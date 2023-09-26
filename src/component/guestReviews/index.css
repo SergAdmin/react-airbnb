@@ -1,0 +1,40 @@
+.guest__block {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+
+.guest__sub {
+    display: flex;
+    justify-content: space-between;
+}
+
+.guest__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.guest {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.guest__title {
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.guest__rating {
+    font-size: 12px;
+    color: #000;
+}
+
+.guest__review {
+    font-size: 12px;
+    color: #000;
+
+}

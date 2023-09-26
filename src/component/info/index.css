@@ -1,0 +1,49 @@
+.title {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+}
+
+.title__text {
+    font-size: 42px;
+    font-weight: bold;
+    color: #000;
+    display: flex;
+    flex-direction: row;
+}
+
+.title__sub {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+.title__sub--block {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+.title__sub--value {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.title__sub--value:not(:last-child)::after {
+    content: "";
+    display: block;
+    height: 4px;
+    width: 4px;
+    border-radius: 4px;
+    background-color: #000;
+}
+
+.avatar {
+    height: 82px;
+    width: 82px;
+    border-radius: 50%;
+}

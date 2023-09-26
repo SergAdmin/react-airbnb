@@ -1,0 +1,24 @@
+.flexibility {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.flexibility__header {
+    display: flex;
+    gap: 12px;
+}
+
+.flexibility__list {
+    display: grid;
+    gap: 12px;
+}
+
+.hide {
+    display: none;
+}
+
+li {
+    padding-bottom: 8px;
+    border-bottom: 1px solid #dee2e6;
+}

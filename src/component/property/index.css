@@ -1,0 +1,15 @@
+.property {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.property__header {
+    display: flex;
+    gap: 12px;
+}
+
+.property__list {
+    display: grid;
+    gap: 12px;
+}
